@@ -80,6 +80,18 @@ const socialImageURL = new URL(
       src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8153000177887150"
       crossorigin="anonymous"
     ></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-663F65ZHTT"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-663F65ZHTT");
+    </script>
   </head>
   <body>
     <slot />
